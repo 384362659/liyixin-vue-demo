@@ -1,0 +1,22 @@
+$color-primary: #20a0ff; //#18c79c
+$bgColor:#0e5075;
+$color:#fff;
+body {
+    background: #dfe9fb;
+    .searchBox {
+      position: relative;
+      button {
+        position: absolute;
+        height: 34px;
+        width: 80px;
+        top: 3px;
+        z-index: 99;
+        line-height: 13px;
+        right: 10px;
+      }
+    }
+    div.paging{//分页居中
+        text-align: center;
+    }
+  }
+
